@@ -10,3 +10,19 @@ th {
     text-align: left;
     padding: 8px;
 }
+
+#databtn{
+    background-color: rgb(251, 120, 120);
+    color: white;
+    font-size: large;
+}
+
+button {
+    outline: none;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid black;
+    min-width: 50px;
+    cursor: pointer;
+}
