@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./data.css" />
+    <title>Data</title>
+  </head>
+  <body>
+    <nav>
+      <button>
+        <a href="./index.html">back</a>
+      </button>
+    </nav>
+    <div class="container">
+      <table id="table">
+        <thead>
+          <tr>
+            <th>Shop Name</th>
+            <th>Location</th>
+            <th>GoogleMap</th>
+            <th>Contact Number</th>
+            <th>Edit</th>
+            <th>Delete</th>
+          </tr>
+        </thead>
+        <tbody id="tableBody"></tbody>
+      </table>
+    </div>
+
+    <div class="editBox" id="editBox">
+      <input type="text" id="updateName" />
+      <input type="text" id="updateLocation" />
+      <input type="url" id="updateURL" />
+      <input type="tel" id="updateContact" />
+      <button id="updateBtn">update</button>
+    </div>
+
+    <script src="./data.js"></script>
+  </body>
+</html>

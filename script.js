@@ -5,6 +5,7 @@ document.getElementById('Storeform').addEventListener('submit', function(e) {e.p
     let GoogleMap = document.getElementById("GoogleMap").value;
     let ContactNumber = document.getElementById("ContactNumber").value;
     const formData = {
+        UserId :Date.now(),
         name :name,
         Location : Location,
         GoogleMap:GoogleMap,
